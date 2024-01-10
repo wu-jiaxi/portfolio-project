@@ -8,6 +8,12 @@
   position: relative;
 }
 
+@media (max-width: 800px) {
+  #homepage {
+    margin-left: 50px;
+  }
+}
+
 #jiaxi {
   width: 40%;
   border-radius: 50%;

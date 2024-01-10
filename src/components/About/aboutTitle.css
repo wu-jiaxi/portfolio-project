@@ -21,16 +21,19 @@
 .skills {
   display: flex;
   position: relative;
-
+  overflow: hidden;
   width: 33.3%;
 }
 
 .skillsInner {
   border-style: solid;
+  border-right: 0;
   border-width: 3px 1.5px 3px 3px;
   border-color: #a3a3a3;
   padding: 40px 30px;
+  padding-right: 25px;
   width: 100%;
+  overflow: hidden;
 }
 
 .elementor-heading-title::before {
@@ -59,6 +62,14 @@
 
 .skillsTextSection {
   width: 100%;
+}
+
+@media (max-width: 800px) {
+  #webDesignerSection {
+    border-right: 1px;
+    border-width: 3px 1.5px 3px 3px;
+    z-index: 2;
+  }
 }
 
 .skillsTextSectionContainer::after {
@@ -164,4 +175,12 @@
 
 #technologiesContainer {
   width: fit-content;
+}
+
+#webDesignerSection {
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color: #a3a3a3;
+  padding: 40px 30px;
+  width: 100%;
 }

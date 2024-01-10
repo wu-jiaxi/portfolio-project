@@ -9,3 +9,10 @@
   justify-content: space-between;
   min-height: 10vh;
 }
+
+@media (max-width: 800px) {
+  #projectAboutButtons {
+    white-space: normal;
+    margin-bottom: 75px;
+  }
+}

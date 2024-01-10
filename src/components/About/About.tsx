@@ -57,7 +57,7 @@ export default function About() {
           </div>
         </div>
         <div className="skills">
-          <div className="skillsInner">
+          <div id="webDesignerSection">
             <div className="skillsIcon">
               <div className="icon">
                 <ColorLensOutlinedIcon fontSize="large" />

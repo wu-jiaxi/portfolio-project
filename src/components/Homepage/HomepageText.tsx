@@ -2,11 +2,8 @@ import { Button, Typography } from "@mui/material";
 import "./Homepage.css";
 import LinksParticles from "../LinksParticles";
 import { Link } from "react-router-dom";
-import ToggleButton from "@mui/material/ToggleButton";
-import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkUrl from "@mui/material/Link";
 import FeedIcon from "@mui/icons-material/Feed";
 

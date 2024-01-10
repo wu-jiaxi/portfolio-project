@@ -36,7 +36,7 @@ function ResponsiveAppBar() {
               <img id="logo" src={brandPicture} alt="Canvas Web"></img>
             </Typography>
           </div>
-          <div>
+          <div id="projectAboutButtons">
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "flex" } }}>
 
               <Link to="/projects" className="list">
